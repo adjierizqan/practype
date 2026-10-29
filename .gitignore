@@ -1,0 +1,16 @@
+# Dependencies and builds
+node_modules/
+dist/
+coverage/
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+
+# Editor and OS artifacts
+.DS_Store
+*.log
